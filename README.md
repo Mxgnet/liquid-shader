@@ -1,3 +1,11 @@
-<img width="1654" alt="image" src="https://github.com/user-attachments/assets/f7abb52f-c546-4132-82f3-aac2bb9054ca" />
+# Liquid Metal Logo Effect
 
-Just for fun, make your logo in liquid metal: <a href="https://liquid.paper.design">liquid.paper.design</a>
+A fork of [Paper.design's Liquid Metal](https://liquid.paper.design) project that transforms logos into a liquid metal effect using WebGL shaders.
+
+This fork aims to extend the original project with additional features like export options and enhanced animation controls.
+
+## Original Project
+Just for fun, make your logo in liquid metal: [liquid.paper.design](https://liquid.paper.design)
+
+## Features Added in this Fork
+- Coming soon...
