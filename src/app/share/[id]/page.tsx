@@ -1,4 +1,4 @@
-import { PaperLogo } from '@/app/paper-logo';
+import { MehaLogo } from '@/app/meha-logo';
 import { Hero } from '@/hero/hero';
 import NextLink from 'next/link';
 import { Fragment, Suspense } from 'react';
@@ -13,30 +13,9 @@ export default async function Page({ params }: PageProps) {
   return (
     <div className="flex min-h-dvh flex-col items-center justify-between">
       <div className="relative mb-48 flex h-72 w-full items-center justify-between px-20 md:px-32">
-        <a href="https://paper.design">
-          <PaperLogo />
+        <a href="/">
+          <MehaLogo />
         </a>
-
-        <span className="scale-80 pt-8 max-sm:scale-65 md:absolute md:left-1/2 md:-translate-x-1/2">
-          <a
-            href="https://www.producthunt.com/posts/liquid-metal?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-liquid&#0045;metal"
-            target="_blank"
-          >
-            <img
-              src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=896993&theme=dark&t=1740036883372"
-              alt="Liquid&#0032;Metal - Turn&#0032;your&#0032;logo&#0032;into&#0032;Apple&#0032;liquid&#0032;metal | Product Hunt"
-              style={{ width: '250px', height: '54px' }}
-              width="250"
-              height="54"
-            />
-          </a>
-        </span>
-
-        <span className="flex gap-24 pt-8 sm:gap-28">
-          <NextLink className="hover:underline" href="https://x.com/paper">
-            @paper
-          </NextLink>
-        </span>
       </div>
 
       <div className="pb-48 sm:pb-80">
